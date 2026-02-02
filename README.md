@@ -4,6 +4,24 @@ The code for the paper:
 * ### See the project webpage [[here]](https://ahhhz975.github.io/Automatic3DMeshParameterization/)
 * ### See the paper [[here]](https://arxiv.org/pdf/2509.25094)
 
+<img width="2919" height="1125" alt="ICLR_Teaser_Figure_v1 2" src="https://github.com/user-attachments/assets/1d3d455a-57d1-4d8a-80ae-8fe453b7f11e" />
+
+
+Recent 3D generative models produce high-quality textures for 3D mesh objects. However, they commonly rely on the heavy assumption that input 3D meshes are accompanied by manual mesh parameterization (UV mapping), a manual task that requires both technical precision and artistic judgment. Industry surveys show that this process often accounts for a significant share of asset creation, creating a major bottleneck for 3D content creators. Moreover, existing automatic methods often ignore two perceptually important criteria: (1) semantic awareness (UV charts should align semantically similar 3D parts across shapes) and (2) visibility awareness (cutting seams should lie in regions unlikely to be seen). To overcome these shortcomings and to automate the mesh parameterization process, we present an unsupervised differentiable framework that augments standard geometry-preserving UV learning with semantic- and visibility-aware objectives. For semantic-awareness, our pipeline (i) segments the mesh into semantic 3D parts, (ii) applies an unsupervised learned per-part UV-parameterization backbone, and (iii) aggregates per-part charts into a unified UV atlas. For visibility-awareness, we use ambient occlusion (AO) as an exposure proxy and back-propagate a soft differentiable AO-weighted seam objective to steer cutting seams toward occluded regions. By conducting qualitative and quantitative evaluations against state-of-the-art methods, we show that the proposed method produces UV atlases that better support texture generation and reduce perceptible seam artifacts compared to recent baselines.
+
+# Qualitative Results of Semantic-Aware UV Parameterization
+
+![Results_SemanticAware_Full](https://github.com/user-attachments/assets/90f1b7bc-fdca-46b0-973d-cdf55f528744)
+
+# Qualitative Results of Visibility-Aware UV Parameterization
+
+<img width="3649" height="1611" alt="ICLR_AO_UV_Seams_Figure_v1 1" src="https://github.com/user-attachments/assets/ae03395f-a0e1-4f46-b48a-f58bb6ac3ebd" />
+
+# Qualitative Results of Checkerboard Texturing
+
+![Results_VisibilityAware_CheckerboardDistortion_Full](https://github.com/user-attachments/assets/97b8921f-d583-4833-9a64-3d415f3b20a0)
+
+
 
 ## Installation
 
