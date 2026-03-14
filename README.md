@@ -2,7 +2,7 @@ The code for the paper:
 # Unsupervised Representation Learning for 3D Mesh Parameterization with Semantic and Visibility Objectives
 
 * ### See the project webpage [[here]](https://ahhhz975.github.io/Automatic3DMeshParameterization/)
-* ### See the paper [[here]](https://arxiv.org/pdf/2509.25094)
+* ### See the paper [[here]](https://openreview.net/pdf?id=9LYsvna4Sk)
 
 <img width="2919" height="1125" alt="ICLR_Teaser_Figure_v1 2" src="https://github.com/user-attachments/assets/1d3d455a-57d1-4d8a-80ae-8fe453b7f11e" />
 
