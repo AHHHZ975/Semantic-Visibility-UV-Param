@@ -201,11 +201,12 @@ c) Restart your Terminal or IDE: After setting the environment variable, restart
 We appreciate your interest in our research. If you find this study useful in your work, we kindly ask that you cite it using the following format.
 ```
 
-@article{zamani2025unsupervised,    
+@inproceedings{zamani2026unsupervised,
   title={Unsupervised Representation Learning for 3D Mesh Parameterization with Semantic and Visibility Objectives},
   author={Zamani, AmirHossein and Roy, Bruno and Rampini, Arianna},
-  journal={arXiv preprint arXiv:2509.25094},
-  year={2025},
-  url={https://ahhhz975.github.io/Automatic3DMeshParameterization/}
+  booktitle={International Conference on Learning Representations},
+  volume={2026},
+  pages={139261--139290},
+  year={2026}
 }
 ```
